@@ -1,0 +1,675 @@
+body{
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: #1e172f;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 509px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav .menu .a{
+    color: #dedde1;
+}
+nav .menu a{
+    text-decoration: none;
+    color: #716d7c;    
+    font-size: 18px;
+
+}
+nav .menu button{
+    color: white;
+    background: linear-gradient(90deg, #7946d5 0%, #5a55d5 40%, #0f79d5 100%);
+    width: 97px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+/* section one */
+.General{
+    display: flex;
+    justify-content: space-between;
+}
+.General .Parte1 .divParte1{
+    text-align: left;
+    width: 829px;
+    height: 528px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.Parte1{
+    background: #2e2550;
+    width: 50%;
+}
+.General .Parte1 h1{
+    font-size: 60px;
+    color: #ffffff;
+    height: 106px;
+    width: 509px;
+}
+.General .Parte1 p{
+    color:#d1cfd6;
+    font-size: 25px;
+    width: 509px;
+}
+.General .Parte1 .divParte1 .botones{
+    width: 512px;
+}
+.General .Parte1 .divParte1 .botones div{
+    width: 398px;
+    height: 61px;
+    border: 2px solid #4e466a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 9px;
+}
+.General .Parte1 .botonD{
+    width: 200px;
+    height: 45px;
+    color: #f4429d;
+    border-radius: 3px;
+    font-size: 18px;
+    border: none;
+}
+.General .Parte1 .botonF{
+    width: 163px;
+    height: 45px;
+    font-size: 18px;
+    color: #efeef2;
+    background: none;
+    border: 1px solid #efeef2;
+    border-radius: 3px;
+}
+
+/* section 2 */
+.parte2{
+    background-image: url("../images/hojas.jpg");
+    width: 52%;
+    height: 692px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-left: 0%;
+    display: flex;
+
+}
+.parte2 img {
+    width: 257px;
+    height: 487px;
+}
+.parte2 div{
+    width: 387px;
+    height: 607px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* section 3 */
+.Imglaptop{
+    display: flex;
+}
+.parte3 .divTexto .Alpha{
+    color: #ca3481;
+    font-size: 40px;
+    height: 28px;
+}
+.parte3 .TituloFon h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #f41486;
+    font-size: 60px;
+}
+.parte3 .TituloFon{
+    height: 140px;
+    display: flex;
+    align-items: center;
+}
+.Imglaptop{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+.Imglaptop img{
+    width: 408px;
+    height: 265px
+}
+.divTexto{
+    margin-left: 40px;
+    width: 400px;
+    height: 331px;
+}
+.parte3 .Imglaptop .divTexto .listas{
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.parte3 .Imglaptop .divTexto .listas ul{
+    margin: 0px;
+    padding-left: 20px;
+}
+.divTexto .lista{
+    list-style-type: '— ';
+    color: #f13495;
+    height: 6px;
+}
+.p{
+    color: #1e172f;
+    height: 2px;
+}
+.li{
+    list-style-type: '♥ ';
+    color: #f13495;
+}
+
+/* sección 4 */
+.general{
+    background: #1e172f;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 717px;
+}
+/* TituloFon y parrafo */
+.Plans{
+    background: #1e172f;
+    margin-bottom: 0px;
+    height: 212px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Plans h1{
+    color: #ffffff;
+    font-size: 57px;
+    height: 43px;
+
+}
+.Plans p{
+    color: #b5b1be;
+    font-size: 17px;
+}
+/* sección general donde se encuentra las cars */
+.SeccionCartas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+/* selecciona cada cars */
+.Cartas{
+    text-align: center;
+    background: #ffffff;
+    margin-left: 39px;
+    width: 294px;
+    border-radius: 5px;
+}
+/* 1 parte de las sesiones cars */
+.Cartas .caja0 p{
+    font-size: 20px;
+    display:inline-block;
+    position: absolute;
+    margin-top: 75px;
+}
+.Cartas .caja0{
+    display: flex;
+    justify-content: center;
+    height: 94px;
+}
+.Cartas .caja0 img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+}
+.Cartas1 .p1{
+    color: #f41486;
+}
+
+/* segunda parte de las cars */
+/* caja de numero */
+.Cartas .caja1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    height: 79px;
+}
+/* caja numero con el numero */
+.Cartas .caja1 .numero{
+    font-size: 40px;
+}
+/* caja numero con el parrafo */
+.Cartas .caja1 .pcaja1{
+    margin-bottom: 27px;
+}
+
+/* seccion de viñetas */
+.Cartas .viñetasCaja1 .viñetaEstrella{
+    color: #1e172f;
+    list-style-type: '★';
+}
+.Cartas .viñetasCaja1 .viñetaChulo{
+    list-style-type: ' ✔';
+    color: #1e172f;
+}
+.Cartas .viñetasCaja1 .viñetax{
+    list-style-type: ' X';
+    color: #000000;
+}
+.Cartas .viñetas p{
+    color: #1e172f;
+}
+.Cartas .viñetas .viñetaEstrella{
+    list-style-type: '★';
+    color: #f41486;
+}
+.Cartas .viñetas .viñetaChulo{
+    list-style-type: ' ✔';
+    color: #f41486;
+}
+.Cartas .viñetas .viñetax{
+    list-style-type: ' X';
+    color: #000000;
+}
+
+/* Organizar viñetas */
+.Cartas .divcaja li{
+    font-size: 20px;
+    height: 10px;
+} 
+/* boton y parrafo */
+.Cartas .divcaja .ParrafoV{
+    height: 111px;
+    margin-top: 56px;
+    font-size: 20px
+}
+.Cartas .divcaja .boton1{
+    height: 76px;
+    width: 100%;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.Cartas .divcaja .boton1 .botonR{
+    background: linear-gradient(90deg, #ec5ea7 0%, #ed55a3 40%, #f41888 100%);
+    width: 184px;
+    height: 45px;
+    font-size: 19px;
+    border-radius: 3px;
+    border: 0px;
+    color: #ffffff;
+}
+.Cartas .divcaja .boton1 .button{
+    background: #1e172f;
+    color: #ffffff;
+    width: 184px;
+    height: 45px;
+    font-size: 19px;
+    border-radius: 3px;
+    border: 0px;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 86px;
+}
+.ImgFooter img{
+    width: 37px;
+    height: 37px;
+}
+span{
+    color: #f41888;
+}
+
+@media screen and (max-width: 1200px){
+    .General .Parte1 h1{
+        font-size: 60px;
+        color: #ffffff;
+        height: 106px;
+        width: 750px;
+    }
+    .General .Parte1 p{
+        color:#d1cfd6;
+        font-size: 25px;
+        width: 750px;
+    }
+    .Plans {
+        background: #1e172f;
+        margin-bottom: -1px;
+        height: 212px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .General .Parte1 .divParte1 .botones div{
+        margin-left: -240px;
+        width: 398px;
+        height: 61px;
+        border: 2px solid #4e466a;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 9px;
+    }
+    .General .Parte1 .botonD{
+        width: 200px;
+        height: 45px;
+        color: #f4429d;
+        border-radius: 3px;
+        font-size: 18px;
+        border: none;
+    }
+    .General .Parte1 .botonF{
+        width: 163px;
+        height: 45px;
+        font-size: 18px;
+        color: #efeef2;
+        background: none;
+        border: 1px solid #efeef2;
+        border-radius: 3px;
+    }
+}
+@media screen and (max-width: 992px){
+    .General .Parte1 h1 {
+        font-size: 60px;
+        color: #ffffff;
+        height: 106px;
+        width: 750px;
+        margin-left: 57px;
+    }
+    .General .Parte1 .divParte1 {
+        text-align: left;
+        width: 829px;
+        height: 528px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .General .Parte1 p {
+        color: #d1cfd6;
+        font-size: 22px;
+        width: 565px;
+        margin-left: 55px;
+    }
+    .General .Parte1 .divParte1 .botones div {
+        margin-left: 51px;
+        width: 378px;
+        height: 61px;
+        border: 2px solid #4e466a;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 9px;
+    }
+    .parte2 img {
+        width: 170px;
+        height: 314px;
+    }
+    .parte2 div {
+        width: 387px;
+        height: 607px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-left: 62px;
+    }
+    .Plans h1 {
+        color: #ffffff;
+        font-size: 56px;
+        height: 36px;
+    }
+    .SeccionCartas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
+    }
+}
+@media screen and (max-width: 768px){
+    nav{
+        width: 830px;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 480px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: -50px;
+    }
+    .Parte1 {
+        background: #2e2550;
+        width: 56%;
+    }
+    .parte2 {
+        background-image: url(../images/hojas.jpg);
+        width: 52%;
+        height: 692px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100% 100%;
+        margin-left: 0%;
+        display: flex;
+    }
+    .parte3 .TituloFon {
+        height: 140px;
+        display: flex;
+        align-items: center;
+        width: 830px;
+    }
+    .General .Parte1 p {
+        color: #d1cfd6;
+        font-size: 17px;
+        width: 518px;
+        margin-left: 50px;
+    }
+    .General .Parte1 .divParte1 .botones div {
+        margin-left: 51px;
+        width: 295px;
+        height: 53px;
+        border: 2px solid #4e466a;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 9px;
+    }
+    .General .Parte1 .botonD {
+        width: 150px;
+        height: 39px;
+        color: #f4429d;
+        border-radius: 3px;
+        font-size: 14px;
+        border: none;
+    }
+    .General .Parte1 .botonF {
+        width: 121px;
+        height: 40px;
+        font-size: 15px;
+        color: #efeef2;
+        background: none;
+        border: 1px solid #efeef2;
+        border-radius: 3px;
+    }
+    .Imglaptop img {
+        width: 300px;
+        height: 195px;
+        margin-left: 130px;
+    }
+    .divTexto {
+        margin-left: 61px;
+        width: 475px;
+        height: 331px;
+    }
+    .Plans {
+        background: #1e172f;
+        margin-bottom: -1px;
+        height: 212px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 830px;
+    }
+    .general {
+        background: #1e172f;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 717px;
+        width: 830px;
+    }
+    .SeccionCartas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 96%;
+    }
+    .Cartas .divcaja .ParrafoV {
+        height: 111px;
+        margin-top: 56px;
+        font-size: 17px;
+    }
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 86px;
+        width: 830px;
+    }
+    
+}
+@media screen and (max-width: 480px){
+    nav{
+        width: 900px;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 509px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Parte1 {
+        background: #2e2550;
+        width: 97%;
+    }
+    .parte2 {
+        background-image: url(../images/hojas.jpg);
+        width: 90%;
+        height: 692px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100% 100%;
+        margin-left: 0%;
+        display: flex;
+    }
+    .parte3 .TituloFon {
+        height: 140px;
+        display: flex;
+        align-items: center;
+        width: 900px;
+    }
+    .Imglaptop img {
+        width: 379px;
+        height: 220px;
+        margin-left: 467px;
+        margin-right: 35px;
+    }
+    .Plans {
+        background: #1e172f;
+        margin-bottom: -2px;
+        height: 212px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 900px;
+    }
+    .general {
+        background: #1e172f;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 717px;
+        width: 900px;
+    }
+    .General .Parte1 p {
+        color: #d1cfd6;
+        font-size: 20px;
+        width: 565px;
+        margin-left: 55px;
+    }
+    .General .Parte1 .divParte1 .botones div {
+        margin-left: 51px;
+        width: 360px;
+        height: 61px;
+        border: 2px solid #4e466a;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 9px;
+    }
+    .General .Parte1 .botonD {
+        width: 175px;
+        height: 45px;
+        color: #f4429d;
+        border-radius: 3px;
+        font-size: 16px;
+        border: none;
+    }
+    
+    .General .Parte1 .botonF {
+    width: 158px;
+    height: 45px;
+    font-size: 18px;
+    color: #efeef2;
+    background: none;
+    border: 1px solid #efeef2;
+    border-radius: 3px;
+    }
+    .SeccionCartas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 97%;
+    }
+    .Plans h1 {
+        color: #ffffff;
+        font-size: 56px;
+        height: 31px;
+    }
+    .Cartas .divcaja .ParrafoV {
+        height: 111px;
+        margin-top: 56px;
+        font-size: 18px;
+    }
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 86px;
+        width: 900px;
+    }
+}
+
+
+
+
+
